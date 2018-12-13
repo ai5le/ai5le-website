@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="213" height="212">
+  <defs>
+    <filter id="a" width="110%" height="109.5%" x="-5%" y="-4%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" filter="url(#a)" style="mix-blend-mode:hard-light" transform="translate(7 4)">
+    <path fill="#111" stroke="#242F38" stroke-width="4.97599406" d="M198.775658 99.9292924c0 54.5940936-44.434995 98.8513386-99.2483317 98.8513386-54.813337 0-99.24833184-44.257245-99.24833184-98.8513386 0-54.5940836 44.43499484-98.85133852 99.24833184-98.85133852 54.8133367 0 99.2483317 44.25725492 99.2483317 98.85133852z"/>
+    <path fill="#CCC" stroke="#FFF" stroke-width="2.88800001" d="M42.0448787 52.5204264h49.5435781"/>
+    <path fill="#CCC" stroke="#2BC3EF" stroke-width="2.88800001" d="M42.0665148 58.71544h30.3309861"/>
+    <path fill="#CCC" stroke="#FFF" stroke-width="2.88800001" d="M42.4464374 46.156377h18.5227169m21.1738384 37.9173978h49.5435783"/>
+    <path fill="#CCC" stroke="#EF4C45" stroke-width="2.88800001" d="M45.1680253 84.2003046h30.3309861"/>
+    <path fill="#CCC" stroke="#FFF" stroke-width="2.88800001" d="M136.651667 83.8879343h30.330887"/>
+    <path fill="#CCC" stroke="#EF4C45" stroke-width="2.88800001" d="M32.3542712 100.2171875h30.330986"/>
+    <path fill="#CCC" stroke="#2BC3EF" stroke-width="2.88800001" d="M71.986712 100.2171875h30.330986"/>
+    <path fill="#CCC" stroke="#FFF" stroke-width="2.88800001" d="M107.201411 100.1143821h30.330986m6.95175 0h30.330986"/>
+    <path fill="#CCC" stroke="#EF4C45" stroke-width="2.88800001" d="M158.974603 73.0755745h18.522717"/>
+    <path fill="#CCC" stroke="#FFF" stroke-width="2.88800001" d="M32.5188249 111.433849H82.062403m7.859178 15.99217h30.330986m6.795037 0h30.330986"/>
+    <path fill="#CCC" stroke="#EF4C45" stroke-width="2.88800001" d="M91.0623413 111.215388h18.5226177m7.951181 0h18.522717"/>
+    <path fill="#CCC" stroke="#FFF" stroke-width="2.88800001" d="M51.1386066 127.577262h30.3308869m-38.7311546 12.172304h30.3308868m7.3302836 0h30.3308867m8.659517 0h30.330986"/>
+    <path fill="#CCC" stroke="#EF4C45" stroke-width="2.88800001" d="M89.8746174 175.575013H113.93956"/>
+    <path fill="#CCC" stroke="#FFF" stroke-width="2.88800001" d="M42.7383389 158.725069h67.9920571M71.7383389 67.1038524h67.9920571"/>
+  </g>
+</svg>
